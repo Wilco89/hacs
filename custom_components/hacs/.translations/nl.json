@@ -1,0 +1,25 @@
+{
+    "config": {
+        "title": "HACS (Home Assistant Community Store)",
+        "step": {
+            "user": {
+                "title": "HACS (Home Assistant Community Store)",
+                "description": "Als u hulp nodig hebt bij de configuratie, kijk dan hier: https://custom-components.github.io/hacs/installation/configuration/",
+                "data": {
+                    "token": "GitHub Persoonlijke toegangstoken",
+                    "sidepanel_title": "Zijpaneel titel",
+                    "sidepanel_icon": "Zijpaneel icoon",
+                    "appdaemon": "Schakel AppDaemon-apps ontdekken en volgen in",
+                    "python_script": "Schakel python_scripts ontdekken en volgen in",
+                    "theme": "Schakel themas ontdekken en volgen in"
+                }
+            }
+        },
+        "error": {
+            "auth": "Personal Access Token is niet correct."
+        },
+        "abort": {
+            "single_instance_allowed": "Slechts een enkele configuratie van HACS is toegestaan."
+        }
+    }
+}
